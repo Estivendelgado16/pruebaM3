@@ -1,0 +1,18 @@
+{
+    "users": [{
+        "task": "task",
+        "category": "category",
+        "priority": "priority",
+        "status": "status",
+        "date": "date",
+        "descripcion": "descripcion"
+    }],
+
+    "admin": [
+        { "user": "admin", "password": "abcd"}
+    ],
+
+    "task": [
+        { "id": "1", "task": "task", "description": "description"}
+    ]
+}

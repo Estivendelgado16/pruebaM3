@@ -1,0 +1,118 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f4f7f9; color: #333; }
+
+.app-layout { display: flex; min-height: 100vh; }
+
+/* --- Sidebar --- */
+.app-sidebar {
+    width: 260px;
+    background-color: #fff;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-brand { display: flex; align-items: center; padding: 0 20px; margin-bottom: 30px; }
+.logo-wrapper { font-size: 28px; margin-right: 10px; }
+.brand-text { font-weight: bold; font-size: 1.2rem; }
+
+.sidebar-menu a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: #555;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+.menu-icon { margin-right: 15px; font-size: 1.1rem; }
+
+.sidebar-menu a.active {
+    background-color: #e0f2fe; /* El celeste de la imagen */
+    color: #007bff;
+    border-right: 4px solid #007bff;
+}
+
+.user-footer { padding: 20px; margin-top: auto; border-top: 1px solid #eee; }
+.user-footer p { margin: 0; font-weight: bold; }
+.user-footer span { font-size: 0.8rem; color: #888; }
+
+
+/* --- Main Content --- */
+.app-main {
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.main-header h3 { margin: 0 0 25px 0; color: #222; }
+
+.profile-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Permite que las tarjetas bajen en pantallas pequeñas */
+}
+
+.profile-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Tarjeta Izquierda */
+.basic-info {
+    flex-basis: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.user-name { font-size: 1.2rem; font-weight: bold; margin: 0 0 5px 0; }
+.user-role-badge {
+    background-color: #007bff; /* Azul */
+    color: white;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    margin-bottom: 15px;
+}
+.user-email { color: #888; font-size: 0.9rem; margin: 0 0 20px 0; }
+.task-summary .task-count { font-size: 2.5rem; font-weight: bold; color: #222; display: block; }
+.task-summary p { margin: -5px 0 0 0; color: #888; }
+
+
+/* Tarjeta Derecha (Información Personal) */
+.personal-details {
+    flex-grow: 1;
+    min-width: 400px;
+}
+
+.details-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
+.details-header h4 { margin: 0; }
+.edit-btn { text-decoration: none; color: #007bff; font-size: 0.9rem; }
+
+.details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas */
+    gap: 20px 40px; /* Espaciado entre filas y columnas */
+}
+
+.detail-item strong { display: block; color: #888; font-size: 0.85rem; margin-bottom: 4px; }
+.detail-item span { color: #333; font-weight: 500; }
+
+.department-badge {
+    background-color: #fff3cd; /* Amarillo claro */
+    color: #856404; /* Texto oscuro */
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: normal;
+}

@@ -1,0 +1,106 @@
+/* Asegúrate de tener estilos base para body, app-main, etc. */
+
+.main-header-task {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #007bff; /* Color azul */
+}
+
+.separator {
+    margin: 0 10px;
+}
+
+.create-new-text {
+    color: #333;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.form-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    max-width: 800px; /* Ancho similar al de la imagen */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.required {
+    color: #dc3545; /* Color rojo para requerido */
+}
+
+/* Estilo general para inputs, selects y textarea */
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Importante para padding no afecte el width */
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-row .form-group {
+    flex: 1; /* Distribuye el espacio equitativamente */
+}
+
+/* Botones de acción */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.btn-cancel, .btn-save {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn-cancel {
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+.btn-save {
+    background-color: #007bff; /* Color azul principal */
+    color: white;
+}
