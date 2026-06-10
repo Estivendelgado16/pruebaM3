@@ -13,7 +13,7 @@
 [![JavaScript](https://img.shields.io/badge/Vanilla_JS-ES2022-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)]()
 
-<img src="https://i.pravatar.cc/150?u=crudzaso" alt="CRUDZASO" width="80" style="border-radius: 20px; margin-top: 20px;" />
+
 
 ---
 
@@ -57,26 +57,11 @@ Most task managers are either **too complex** or **too limited**. CRUDZASO strik
 
 ---
 
-## 🖥️ Screenshots
+## 🖥️ Demo
 
 <div align="center">
   <table>
-    <tr>
-      <td align="center"><strong>📊 Dashboard</strong></td>
-      <td align="center"><strong>📋 Task List</strong></td>
-    </tr>
-    <tr>
-      <td><img src="https://placehold.co/600x400/2563eb/ffffff?text=Dashboard+View&font=source-sans-pro" alt="Dashboard" width="100%"></td>
-      <td><img src="https://placehold.co/600x400/7c3aed/ffffff?text=Task+List+View&font=source-sans-pro" alt="Task List" width="100%"></td>
-    </tr>
-    <tr>
-      <td align="center"><strong>✏️ Create Task</strong></td>
-      <td align="center"><strong>👤 User Profile</strong></td>
-    </tr>
-    <tr>
-      <td><img src="https://placehold.co/600x400/059669/ffffff?text=Create+Task+Form&font=source-sans-pro" alt="Create Task" width="100%"></td>
-      <td><img src="https://placehold.co/600x400/dc2626/ffffff?text=Profile+Page&font=source-sans-pro" alt="Profile" width="100%"></td>
-    </tr>
+      <td><img src="/home/estivenc6am/Escritorio/pruebaM3/assets/demo.png" alt="Create Task" width="100%"></td>
   </table>
 </div>
 
