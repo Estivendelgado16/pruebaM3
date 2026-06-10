@@ -60,9 +60,9 @@ Most task managers are either **too complex** or **too limited**. CRUDZASO strik
 ## 🖥️ Demo
 
 <div align="center">
-  <table>
-      <td><img src="/home/estivenc6am/Escritorio/pruebaM3/assets/demo.png" alt="Create Task" width="100%"></td>
-  </table>
+  <td>
+    <img src="./assets/demo.png" alt="Create Task" width="100%">
+  </td>
 </div>
 
 ---
